@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/videostyles.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+   
+    
+    
+</head>
+<body onload="IntroMsgFunc()">
+    <script>
+        function IntroMsgFunc() {
+            alert(" Welcome to Standing Desk Company!");
+        }
+    </script>
+
+    <!-- Nav Bar -->
+    <header>
+
+
+        <a href="./shop.html" class="SHOP"style="text-decoration: none;" >$HOP+</a>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">MENU</label>
+
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html"style="text-decoration: none;">HOME+</a>
+                    
+                </li>
+                
+                </li>
+                <li><a href="./contact.html"style="text-decoration: none;">CONTACT US</a></li>
+                <li><a href="./PRODUCTS.html"style="text-decoration: none;">PRODUCTS</a></li>
+                <li><a href="./health-benifits.html"style="text-decoration: none;">HEALTH BENIFITS</a></li>
+                
+              
+               
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- VIDEO BACKGROUND -->
+    <div class="header-change">
+
+        <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+        <div class="overlay"></div>
+        
+        <!-- The HTML5 video element that will create the background video on the header -->
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="video-overlay">
+            <source src="./videos/standingdesk.mp4" type="video/mp4">
+        </video>
+        
+        <!-- The header content -->
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+                <h1 class="display-3" style="color: #fff;">STANDING DESK</h1>
+                <p class="lead mb-0"> "Where Modern Innovation, meets modern living"</p>
+                <div id="button_padding"><a href="./PRODUCTS.html"><button type="button" class="btn btn-outline-light" id="button-in-padding"><h3>EXPLORE</h3></button></a></div>
+            </div>
+            </div>
+        </div>   
+        </div>
+
+    
+
+
+    
+  
+    
+    <script src="./JAVA/script.js"></script>
+</body>
+</html>
